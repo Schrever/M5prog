@@ -1,20 +1,24 @@
-using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
+using System;
 
-public class PROG_les1 : MonoBehaviour
+class PROG_les1
 {
 
-    string Naam = "Erwin";
-    int Score = 1000;
-    bool Alive = true;
+
+
+
 
     static void Main(string[] args)
     {
-        Debug.Log("hello");
+
+        string Naam = "Erwin";
+        int Score = 1000;
+        bool Alive = true;
+
+        Console.WriteLine("Output >");
+
+        Console.WriteLine("Naam : "+Naam);
+        Console.WriteLine("Score : "+Score);
+        Console.WriteLine("Alive : "+Alive);
     }
 
-    void Update()
-    {
-        
-    }
 }
