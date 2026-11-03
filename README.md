@@ -8,4 +8,4 @@
 
 ##Opdracht 1.1
 
-[](./img/Opdracht1img.png)
+[image](./img/Opdracht1img.png)
