@@ -9,3 +9,7 @@
 ##Opdracht 1.2
 
 [image](./img/Opdracht1img2.png)
+
+##Opdracht 1.3
+
+[image](./img/Opdracht1img3.png)

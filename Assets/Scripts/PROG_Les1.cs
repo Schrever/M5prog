@@ -17,8 +17,13 @@ class PROG_les1
 
         Console.WriteLine("Output >");
 
-        Console.WriteLine("HP : "+(HP-35));
-        Console.WriteLine("Is alive : "+Alive);
+        Begroet();
+
+
+        void Begroet()
+        {
+            Console.WriteLine("Welkom "+Naam+"!");
+        }
 
     }
 
