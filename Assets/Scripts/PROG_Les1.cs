@@ -17,12 +17,14 @@ class PROG_les1
 
         Console.WriteLine("Output >");
 
-        Begroet();
+        Max(40, 60);
 
 
-        void Begroet()
+        void Max(int a, int b)
         {
-            Console.WriteLine("Welkom "+Naam+"!");
+            Console.WriteLine("Result : "+ a);
+            Console.WriteLine("Result : "+ b);
+            return;
         }
 
     }
