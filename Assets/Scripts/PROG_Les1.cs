@@ -13,12 +13,13 @@ class PROG_les1
         string Naam = "Erwin";
         int Score = 1000;
         bool Alive = true;
+        float HP = 100;
 
         Console.WriteLine("Output >");
 
-        Console.WriteLine("Naam : "+Naam);
-        Console.WriteLine("Score : "+Score);
-        Console.WriteLine("Alive : "+Alive);
+        Console.WriteLine("HP : "+(HP-35));
+        Console.WriteLine("Is alive : "+Alive);
+
     }
 
 }
